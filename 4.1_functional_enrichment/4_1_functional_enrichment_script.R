@@ -53,3 +53,4 @@ DEgenes <- topTable(fit4, coef = "MLLvsALL", number = Inf, p.value = adjPvalueCu
                     lfc = logFCcutoff)
 res2 <- decideTests(fit4, p.value = adjPvalueCutoff, lfc = logFCcutoff)
 summary(res2)
+
