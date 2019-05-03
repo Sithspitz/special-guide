@@ -31,7 +31,7 @@ View(leukemia_filtered_eset)
 # GSVA
 leukemia_es <- gsva(leukemia_filtered_eset, c2BroadSets, min.sz = 10, max.sz = 500, verbose = T)
 
-# Statistical Comparison
+# Statistical Comparison as 4.2
 ## Script below the break shows that are 34 differentially activated C2 pathways between MLL and ALL
 ### Second break script shows the 122 differentially expressed genes with min log fold change of 2 at 0.1 FDR
 adjPvalueCutoff <- 0.001
